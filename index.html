@@ -1,0 +1,72 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title> HomePage</title>
+<style>
+    body{
+        background: #dae0e6 !important;
+        margin-top: 75px !important;
+    }
+    </style>
+{% endblock %}
+
+{% block body %}
+<nav class="navbar navbar-expand-lg fixedtop navbar-light style=" style="background-color: #fff !important;">
+    <div class="container">
+        <a class="navbar-brand" href="/">FlaskAPP</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarNavAltMarkup"
+        aria-control="navbarNavAlMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <form class="mx-2 my-auto d-inline w-100" style="margin-left: 100px !important; margin-right: 100px !important;">
+            <input class="form-control mr-sm-2" type="search" placeholder="search" aria-label="search">
+        </form>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item btn btn-outline-primary mx-2" href="/login">Login</a>
+                <a class="nav-item btn btn-primary" href="/signup">Signup</a>
+            </div>
+        </div>
+    </div>
+   </nav>
+   <div class="container">
+       <div class="row">
+           <div class="col-sm-8">
+               <div class="card">
+                   <strong>
+                       <button class="btn btn-light btn-sm">
+                           <i class="fas fa-arrow-up"></i>
+                           </button>
+                           <button class="btn btn-light btn-sm">
+                               <i class="fas fa-arrow-down"></i>
+                            </button>
+                        </strong> r/Flaskc .<span class="text-muted" style="font-size: 10pt;"> posted by u/coldStone 5 hours ago</span>
+                        </div>
+                        <div class= "card-body">
+                            <h5 class="card-title">Stonecold was here</h5>
+                            <p class="card-text">
+                                hello there
+                            </p>
+                            </div>
+                            <div class="card-footer text-muted">
+                                <a href="" class="btn btn-light btn-sm"><i class="fas fa-comment"></i> 0 comment</a>
+                                <a href="" class="btn btn-light btn-sm"><i class="fas fa-share"></i> share</a>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">r/popular</h5>
+                                    <p class="card-text">
+                                        hello
+                                    </p>
+                                    <a href="/" class="btn btn-primary btn-block">Create Post</a>
+                                </div>
+                            </div>
+
+
+
+
+{% endblock %}
